@@ -1,0 +1,305 @@
+body{
+    margin: 40px 8% 40px 8%;
+    padding:10px;
+    font-family: 'Oswald', sans-serif;
+    background: #f3e6d2;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --accent-color: rgb(173, 173, 173);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.left, .right {
+    float: left;
+    width: 100%;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+  }
+  
+  @media(max-width: 700px){
+    .row{
+        flex-direction: row-reverse;
+    width: 100%;
+    }
+}
+
+a {
+  display: block;
+  text-decoration: inherit;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 20px;
+  line-height: calc(25 / 20);
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px;
+  background-color: var(--accent-color);
+}
+
+.nav {
+  padding: 40px 150px;
+  background-color: var(--accent-color);
+}
+
+.hero {
+  padding-top: 50px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.hero-title {
+  font-size: 40px;
+  line-height: calc(50 / 40);
+}
+
+.application {
+  padding: 40px 0;
+}
+.application-title {
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.progress {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  font-weight: 700;
+}
+
+input[type="range"] {
+  height: 40px;
+  overflow: hidden;
+  appearance: none;
+}
+
+::-webkit-slider-runnable-track {
+  background: rgb(116, 141, 223);
+}
+::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px; 
+  height: 40px;
+  background: #fff;
+  box-shadow: -700px 0 0 700px var(--accent-color); 
+  border: 2px solid rgb(238, 231, 231); 
+  box-sizing: border-box;
+}
+::-moz-range-track {
+  height: 40px;
+  background: rgb(221, 221, 221);
+}
+
+::-moz-range-thumb {
+  background: #fff;
+  height: 40px;
+  width: 20px;
+  border: 3px solid #999;
+
+  box-sizing: border-box;
+}
+
+::-ms-thumb {
+  background: #fff;
+  border: 2px solid #999;
+  height: 40px;
+  width: 20px;
+}
+
+::-ms-track {
+  background: #ddd;
+  color: transparent;
+  height: 40px;
+  border: none;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 40px;
+}
+
+.data-list {
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+
+  align-items:flex-end;
+}
+
+.data-text,
+.message-text {
+  font-weight: 800;
+}
+
+.data-input {
+  height: 40px;
+  width: 17em;
+}
+
+.data-list-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: 12px;
+  align-items:flex-end;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.message-label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-description {
+  font-style: oblique;
+}
+.thumb {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.button-link {
+  padding: 20px 40px;
+  background-color: var(--accent-color);
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  font-size: large;
+}
+.backward-button{
+    padding: 20px 40px;
+    background-color: var(--accent-color);
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    position:sticky;
+}
+
+.radio-list {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 20% 20%;
+  gap: 20px;
+  height: 120px;
+  align-items: flex-end;
+}
+
+.product-item {
+  align-items: flex-end;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 20px;
+}
+.cards-item {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.payments-data {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 40px;
+}
+
+.payments-card-name {
+  display: flex;
+  align-items: center;
+}
+
+.payments-card,
+.payments-list,
+.card-data-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.payments-list {
+  align-items: flex-end;
+}
+
+.label-card-input {
+  width: 17rem;
+  height: 40px;
+}
+
+.card-data-input {
+  height: 40px;
+  width: 5rem;
+}
+
+.card-data-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-end;
+  grid-column-gap: 65px;
+  align-items: center;
+  justify-items: end;
+}
