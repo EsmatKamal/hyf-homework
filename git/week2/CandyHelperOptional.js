@@ -47,3 +47,4 @@ console.log(boughtCandyPrices);
 console.log(amountToSpend);
 boughtSum(boughtCandyPrices);
 canBuyMoreCandy();
+//I need to add it again
