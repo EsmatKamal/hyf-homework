@@ -1,0 +1,22 @@
+https://elmcip.net/creative-work/magic-realism-bot
+Magic Realism Bot is a Twitter bot that creates short stories with surreal elements in the style of 
+magic realism. These stories are generated through the combination of random phrases and images, 
+resulting in dreamlike and unusual tales that blur the line between reality and fantasy. 
+The stories produced by Magic Realism Bot are often evocative and provoke thought, 
+inspiring creativity in its readers. Many people follow the bot for its daily dose of surreal storytelling.
+Examples:
+
+"The birds circled endlessly in the sky, their wings slicing through the clouds like knives. 
+Down on the ground, the people watched in awe as the sky bled scarlet rain."
+
+"In the desert, the cacti grew tall and thin like spires. 
+At night, they would hum to each other in a language only they understood."
+
+"The girl had a map of the world tattooed on her back, and as she traveled, 
+new lands and seas would appear on her skin like magic."
+
+"The clock on the wall ticked backwards, each chime echoing through time like a 
+pebble thrown into a still pool."
+
+"The river was made of silver and flowed through the city like a serpent. 
+Those who drank from it would gain the power to see the future, but at the cost of their own memories."

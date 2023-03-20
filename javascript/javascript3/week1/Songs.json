@@ -1,0 +1,37 @@
+{
+    "songs": [
+      {
+        "title": "Zamana",
+        "artist": "Dawood Sarkhosh",
+        "album": "Sarzamin i man",
+        "genre": "folklore",
+        "year": 2008,
+        "length": "5:55"
+      },
+      {
+        "title": "Maryam",
+        "artist": "Dawood Sarkhosh",
+        "album": "Sarzamin i man",
+        "genre": "folklore",
+        "year": 2008,
+        "length": "8:02"
+      },
+      {
+        "title": "Safora",
+        "artist": "Dawood Sarkhosh",
+        "album": "Sarzamin i man",
+        "genre": "folkore",
+        "year": 2008,
+        "length": "4:50"
+      },
+      {
+        "title": "Mosafer",
+        "artist": "Dawood Sarkhosh",
+        "album": "Sarzamin i man",
+        "genre": "folkore",
+        "year": 2008,
+        "length": "7:13"
+      }
+    ]
+  }
+  
